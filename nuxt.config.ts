@@ -27,5 +27,16 @@ export default defineNuxtConfig({
     '~/assets/css/global.css'
   ],
 
-  ssr: true
+  ssr: true,
+
+  nitro: {
+    preset: "cloudflare_module",
+
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true
+    }
+  },
+
+  modules: ["nitro-cloudflare-dev"]
 })
