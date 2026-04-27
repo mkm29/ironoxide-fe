@@ -20,7 +20,7 @@
         <NuxtLink to="/architecture">Architecture</NuxtLink>
         <NuxtLink to="/docs">Docs</NuxtLink>
         <NuxtLink to="/changelog">Changelog</NuxtLink>
-        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/mkm29/ironoxide" target="_blank" rel="noopener">GitHub</a>
       </nav>
 
       <NuxtLink to="/#access" class="cta">
