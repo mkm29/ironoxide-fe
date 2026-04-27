@@ -1,0 +1,66 @@
+/* Iron Oxide — Design Tokens (mirrors ../colors_and_type.css from the design system) */
+
+@font-face {
+  font-family: 'Fira Code Nerd Font';
+  src: url('/fonts/FiraCodeNerdFontMono-Light.ttf') format('truetype');
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Code Nerd Font';
+  src: url('/fonts/FiraCodeNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Code Nerd Font';
+  src: url('/fonts/FiraCodeNerdFontMono-SemiBold.ttf') format('truetype');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Code Nerd Font';
+  src: url('/fonts/FiraCodeNerdFontMono-Bold.ttf') format('truetype');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+:root {
+  --io-bg:           #0B0C0F;
+  --io-surface:      #15171B;
+  --io-surface-2:    #1C1F25;
+  --io-surface-3:    #242830;
+  --io-line:         #2A2E36;
+  --io-line-strong:  #3A3F49;
+
+  --io-text:         #E8EAED;
+  --io-text-muted:   #A6ADB8;
+  --io-text-dim:     #7A8290;
+  --io-text-faint:   #4E5663;
+
+  --io-rust-300: #E89377;
+  --io-rust-500: #E0563E;
+  --io-rust-600: #C13E27;
+  --io-rust-700: #9F2A1A;
+
+  --io-blue-300: #6FA8FF;
+  --io-blue-500: #3B7BE0;
+  --io-blue-700: #1F4FA0;
+
+  --io-ok:    #4ADE80;
+  --io-warn:  #F5B544;
+  --io-err:   #E0563E;
+
+  --io-font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --io-font-body:    'Inter', ui-sans-serif, system-ui, sans-serif;
+  --io-font-mono:    'Fira Code Nerd Font', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --io-r-1: 4px;  --io-r-2: 8px;  --io-r-3: 12px;  --io-r-4: 16px;  --io-r-pill: 999px;
+
+  --io-s-1: 4px; --io-s-2: 8px; --io-s-3: 12px; --io-s-4: 16px;
+  --io-s-5: 24px; --io-s-6: 32px; --io-s-7: 48px; --io-s-8: 64px;
+
+  --io-shadow-1: 0 1px 0 rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+  --io-shadow-2: 0 4px 12px rgba(0,0,0,.35), 0 1px 0 rgba(255,255,255,.02) inset;
+  --io-shadow-glow: 0 0 0 1px rgba(224,86,62,.35), 0 0 24px rgba(224,86,62,.15);
+
+  --io-ease: cubic-bezier(.2,.7,.2,1);
+  --io-dur-1: 120ms;
+  --io-dur-2: 220ms;
+}
